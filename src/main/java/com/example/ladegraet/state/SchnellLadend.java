@@ -10,9 +10,12 @@ public class SchnellLadend extends Zustand {
         return schnellLadend;
     }
 
+
     @Override
-    public void bearbeiten(Ladegeraet ladegreat) {
-        System.out.println("Ladegeraet lädt schnell.");
+    public void bearbeiten(Ladegeraet ladegeraet) {
+        if (ladegeraet.getLadestand() >= 80) {
+            ladegeraet.setZustand(NormalLadend.getLadend());
+        }
     }
 }
 

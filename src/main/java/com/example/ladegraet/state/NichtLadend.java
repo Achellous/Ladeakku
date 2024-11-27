@@ -10,13 +10,13 @@ public class NichtLadend extends Zustand {
         return nichtLadend;
     }
 
+
     @Override
-    public void bearbeiten(Ladegeraet ladegreat) {
-        if (ladegerät.getLadestand() < 20) {
-            System.out.println("Akkustand < 20%: Akku defekt. Zustand bleibt NichtLadend.");
-        } else if (ladegerät.getLadestand() >= 20 && ladegerät.getLadestand() < 100) {
-            System.out.println("Akkustand >= 20%: Wechsel zu NormalLadend.");
-            ladegerät.setZustand(NormalLadend.getLadend());
+    public void bearbeiten(Ladegeraet ladegeraet) {
+        if (ladegeraet.getLadestand() < 20) {
+        } else if (ladegeraet.getLadestand() >= 20 && ladegeraet.getLadestand() < 100) {
+            ladegeraet.setZustand(NormalLadend.getLadend());
+        }
     }
 }
 

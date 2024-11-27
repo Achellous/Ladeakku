@@ -11,8 +11,10 @@ public class NormalLadend extends Zustand {
     }
 
     @Override
-    public void bearbeiten(Ladegeraet ladegreat) {
-        System.out.println("Ladegerät lädt normal.");
+    public void bearbeiten(Ladegeraet ladegeraet) {
+        if (ladegeraet.getLadestand() < 80) {
+            ladegeraet.setZustand(SchnellLadend.getLadend());
+        } else if (ladegeraet.getLadestand() >= 80) {
+        }
     }
 }
-
