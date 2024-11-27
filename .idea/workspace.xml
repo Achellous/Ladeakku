@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9bd24af-85c9-454d-9b41-90b821d6d1e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ladegraet/state/Ladegeraet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ladegraet/state/NichtLadend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ladegraet/state/NormalLadend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ladegraet/state/SchnellLadend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ladegraet/state/Zustand.java" afterDir="false" />
-    </list>
+    <list default="true" id="a9bd24af-85c9-454d-9b41-90b821d6d1e5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +29,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -73,11 +61,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1732693675512</updated>
-      <workItem from="1732693676323" duration="1087000" />
+      <workItem from="1732693676323" duration="1718000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
